@@ -1,0 +1,43 @@
+[x-cloak] {
+  display: none;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+.group:hover .hover\:w-full {
+  width: 100%;
+}
+.cursor-zoomin {
+  cursor: zoom-in;
+}
+
+/*===========srool bar============*/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: #9f1170;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #670728;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #aa2d57;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 50%;
+}
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

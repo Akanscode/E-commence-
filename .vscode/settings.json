@@ -1,0 +1,9 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "html.format.indentHandlebars": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "tailwindCSS.emmetCompletions": true,
+  "liveServer.settings.port": 5501
+}
